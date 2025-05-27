@@ -66,6 +66,7 @@ At 42, time and disk space are both valuable. These scripts help by:
 ## 🤝 Contributions & Feedbacks 
 
 Feel free to submit pull requests or ideas to improve the scripts!
+DM me on slack for any feedbacks or comments intra: `msalim`
 
 ---
 
