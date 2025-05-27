@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Directories
-WORK_DIR=~/Work
-REPO_DIR=~/42_Mini_Shell
+
+read -p "Work Directory : " WORK_DIR
+read -p "Repository Directory : " REPO_DIR
 
 # List all project directories in the work directory
 PROJECTS=($(ls -d "$WORK_DIR"/*/))
