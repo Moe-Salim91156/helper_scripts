@@ -9,7 +9,7 @@ A collection of useful Bash scripts to make your life easier as a 42 student. Th
 | Script Name         | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
 | `clean`             | Deletes .var/app that has the most disk usage of cache |
-| `cleaner`           | Same as `clean` but takes **$1 arg as the DIR** , Deletes system clutter .cache, .zcompdump*, Flatpak leftovers, and more to save disk space. |
+| `cleaner`           | Same as `clean` but takes **$1 arg as the DIR** , Deletes system clutter `.cache, .zcompdump*, Flatpak leftovers,` and more to save disk space. |
 | `copy_push`         | Copies files and automatically pushes changes to a Git repository. Great for quick backups. |
 | `norm_dir`          | Normalizes directory structure. Helps keep your project directories clean and readable. |
 | `push`              | A simple Git push wrapper for lazy commits.                                |
