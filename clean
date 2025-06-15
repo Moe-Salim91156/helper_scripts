@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_DIR=".var/app"
+BASE_DIR="/home/msalim/.var/app"
 
 if [ -z "$BASE_DIR" ]; then
   echo "Usage: $0 /path/to/folder"
