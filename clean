@@ -16,10 +16,12 @@ cd "$BASE_DIR" || exit
 
 for folder in */ ; do
 	cache_dir="${folder}cache"
+	dot_cache_dir="${folder}.cache"
 
 	if [ -d "$cache_dir" ]; then 
 		echo "Removing Cache Folder $cache_dir"
 		rm -rf $cache_dir
+		rm -rf $dot_cache_dir
 	elif [ -d "$cache_dot_dir" ]; then 
 		echo "Removing cache folder : $cache_dot_dir"
 		rm -rf $cache_dot_dor
