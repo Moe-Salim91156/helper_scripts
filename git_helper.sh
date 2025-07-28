@@ -16,7 +16,7 @@ while true; do
         1) git status ;;
         2) git add .; echo "Added all changes." ;;
         3) read -p "Commit message: " msg; git commit -m "$msg" ;;
-        4) git push ;;
+        4) push ;;
         5) git pull ;;
         6) git branch -a ;;
         7) echo "Bye!"; exit 0 ;;
