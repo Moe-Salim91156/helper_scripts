@@ -1,5 +1,5 @@
 #!/bin/bash
-
+###
 forbidden_funcs=("printf" "execve")
 
 for func in "${forbidden_funcs[@]}"; do
