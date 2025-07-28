@@ -2,7 +2,18 @@
 
 BASE_DIR="/home/msalim/.var/app"
 
-if [ -z "$BASE_DIR" ]; then
+# name="mohammad isleem"
+
+# if [ $name = "mohammad isleem" ]; then  # ❌ will break
+#     echo "match"
+# fi
+ 
+##### difference between [] and [[]]
+# if [[ $name = "mohammad isleem" ]]; then  # ✅
+    # echo "match"
+# fi
+
+if [ -z $BASE_DIR ]; then
   echo "Usage: $0 /path/to/folder"
   exit 1
 fi
