@@ -2,7 +2,7 @@
 
 
 read -p "Work Directory : " WORK_DIR
-read -p "Repository Directory : " REPO_DIR
+read -p "42 Repository Directory : " REPO_DIR
 
 PROJECTS=($(ls -d "$WORK_DIR"/*/))
 
