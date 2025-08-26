@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-read -p "Work Directory : " WORK_DIR
-read -p "42 Repository Directory : " REPO_DIR
+WORK_DIR="$HOME/$1"
+REPO_DIR="$HOME/$2"
 
 PROJECTS=($(ls -d "$WORK_DIR"/*/))
 
