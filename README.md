@@ -196,6 +196,11 @@ runner
 ## 🤝 Contributions & Feedbacks 
 
 Feel free to submit pull requests or ideas to improve the scripts!
+
+**Want to add your own script?** Check out [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+**Looking for a specific script?** See [SCRIPTS.md](SCRIPTS.md) for a quick overview of all scripts.
+
 DM me on slack for any feedbacks or comments intra: `msalim`
 
 ---
