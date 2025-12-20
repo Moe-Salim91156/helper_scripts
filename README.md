@@ -6,6 +6,25 @@ A collection of useful Bash scripts to make your life easier as a 42 student. Th
 
 ---
 
+## ⚡ Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/Moe-Salim91156/helper_scripts.git ~/helper_scripts
+
+# Run the automated setup
+cd ~/helper_scripts
+./setup.sh
+
+# Reload your shell
+source ~/.zshrc  # or ~/.bashrc
+
+# Start using scripts from anywhere!
+push_swap_tester
+```
+
+---
+
 ## 📂 Repository Structure
 
 ```
@@ -56,7 +75,25 @@ Scripts for installing development tools.
 
 ## 🚀 Installation & Setup
 
-### Method 1: Add Subdirectories to PATH (Recommended)
+### Quick Setup (Recommended)
+
+Run the automated setup script:
+
+```bash
+git clone https://github.com/Moe-Salim91156/helper_scripts.git ~/helper_scripts
+cd ~/helper_scripts
+./setup.sh
+source ~/.zshrc  # or ~/.bashrc
+```
+
+The `setup.sh` script will:
+- Detect your shell (Zsh or Bash)
+- Add all script directories to your PATH
+- Show you example commands to get started
+
+### Manual Setup
+
+#### Method 1: Add Subdirectories to PATH
 
 1. **Clone the Repo**
 
@@ -92,7 +129,7 @@ EOF
 source ~/.bashrc
 ```
 
-### Method 2: Navigate to Script Directories
+#### Method 2: Navigate to Script Directories
 
 Alternatively, navigate to the specific category folder and run scripts directly:
 
@@ -104,7 +141,7 @@ cd ~/helper_scripts/testing
 ./push_swap_tester
 ```
 
-### Method 3: Create Aliases
+#### Method 3: Create Aliases
 
 Add shortcuts for your favorite scripts:
 
