@@ -13,7 +13,7 @@ BASE_DIR="/home/msalim/.var/app"
     # echo "match"
 # fi
 
-if [ -z $BASE_DIR ]; then
+if [ -z "$BASE_DIR" ]; then
   echo "Usage: $0 /path/to/folder"
   exit 1
 fi
@@ -31,13 +31,11 @@ for folder in */ ; do
 
 	if [ -d "$cache_dir" ]; then 
 		echo "Removing Cache Folder $cache_dir"
-		rm -rf $cache_dir
-		rm -rf $dot_cache_dir
-	elif [ -d "$cache_dot_dir" ]; then 
-		echo "Removing cache folder : $cache_dot_dir"
-		rm -rf $cache_dot_dor
-		echo $cahe_dot_dir
-		echo "$cache_dot_dir"
+		rm -rf "$cache_dir"
+		rm -rf "$dot_cache_dir"
+	elif [ -d "$dot_cache_dir" ]; then 
+		echo "Removing cache folder : $dot_cache_dir"
+		rm -rf "$dot_cache_dir"
 	else
 		echo "No cache folders found in $folder"
 	fi
