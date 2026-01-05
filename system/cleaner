@@ -3,7 +3,7 @@
 TARGET_DIR="$1"
 
 echo "REMOVING ~/.cache folder"
-rm -rf /home/msalim/.cache
+rm -rf $HOME/.cache
 
 if [ -z "$TARGET_DIR" ]; then
   echo "Usage: $0 /path/to/folder"
